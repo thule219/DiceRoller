@@ -10,23 +10,18 @@
     tools:context=".MainActivity">
 
 
-    <TextView
-        android:id="@+id/textView"
+    <ImageView
+        android:id="@+id/imageView"
         android:layout_width="match_parent"
-        android:layout_height="195dp"
-        android:text=""
-        android:gravity="center"
-        android:textAlignment="center"
-        android:textSize="100px"
-        tools:layout_editor_absoluteX="20dp"
-        tools:layout_editor_absoluteY="163dp" />
+        android:layout_height="170dp"
+        app:srcCompat="@drawable/dice_1" />
 
     <Button
         android:id="@+id/rollButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Roll"
         android:layout_gravity="center"
+        android:text="Roll"
         tools:layout_editor_absoluteX="161dp"
         tools:layout_editor_absoluteY="391dp" />
 </LinearLayout>
